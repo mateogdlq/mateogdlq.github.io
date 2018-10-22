@@ -36,12 +36,12 @@
 				
 				
 				map = THREE.ImageUtils.loadTexture('../texturez/soup.jpg');
-geometry = new THREE.TorusKnotGeometry(100, 40, 64, 8, 2, 3, 1);
-material = new THREE.MeshBasicMaterial({shading: THREE.FlatShading, color: 0xdcdcdc, map: map});
-mesh = new THREE.Mesh(geometry, material);
-map.wrapS = map.wrapT = THREE.RepeatWrapping;
-map.repeat.set( 3.4386120070752275, 3.4386120070752275 );
-scene.add(mesh);
+				geometry = new THREE.TorusKnotGeometry(100, 40, 64, 8, 2, 3, 1);
+				material = new THREE.MeshBasicMaterial({shading: THREE.FlatShading, color: 0xdcdcdc, map: map});
+				mesh = new THREE.Mesh(geometry, material);
+				map.wrapS = map.wrapT = THREE.RepeatWrapping;
+				map.repeat.set( 3.4386120070752275, 3.4386120070752275 );
+				scene.add(mesh);
 
 
 
